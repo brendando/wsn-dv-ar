@@ -1,11 +1,27 @@
 {
   "name": "server",
   "version": "0.0.0",
-  "description": "",
+  "description": "To do:  - make sure requires are working properly  - update packages.json to run correctly",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "BSD-2-Clause"
+  "author": "Brendan Do",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brendando/wsn-dv-ar"
+  },
+  "keywords": [
+    "wsn",
+    "data-vis",
+    "ar"
+  ],
+  "bugs": {
+    "url": "https://github.com/brendando/wsn-dv-ar/issues"
+  },
+  "dependencies": {
+    "express": "~4.14.0",
+    "fs": "0.0.1-security"
+  }
 }
