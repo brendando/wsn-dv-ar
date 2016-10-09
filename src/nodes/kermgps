@@ -1,0 +1,10 @@
+#!/usr/bin/kermit +
+
+
+SET LINE /dev/ttyACM0
+set carrier off
+set flow none
+set speed 9600
+connect
+
+exit
